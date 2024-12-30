@@ -1,0 +1,30 @@
+<view class="data-v-57280228">
+  <view class="position-container data-v-57280228">
+    <image class="image data-v-57280228" style="width:20px;height:20px;" src="/static/ico-m20-w20-horror.png"></image>
+    <view class="text-container data-v-57280228"><text class="text data-v-57280228">广州▼</text></view>
+  </view>
+  <view class="swiper-container data-v-57280228">
+    <swiper class="swiper data-v-57280228" style="height:120px;" circular="{{true}}" autoplay="{{true}}" indicator-dots="{{true}}" interval="{{3000}}" duration="{{500}}" indicator-color="#808080" indicator-active-color="#FF8C00">
+      <block wx:for="{{imgs}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this">
+        <swiper-item class="data-v-57280228">
+          <image class="swiper-image data-v-57280228" style="width:100%;" src="{{item}}" alt mode="widthFix"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="movie-scroll-container data-v-57280228">
+    <view class="movie-scroll-container-title data-v-57280228">正在热映</view>
+    <scroll-view class="movie-scroll data-v-57280228" scroll-x="true">
+      <view class="movie-row data-v-57280228">
+        <block wx:for="{{movieList}}" wx:for-item="movie" wx:for-index="index" wx:key="index">
+          <view class="movie-item data-v-57280228">
+            <image class="movie-poster data-v-57280228" src="{{movie.img}}" alt></image><text class="movie-title data-v-57280228">{{movie.nm}}</text><button data-event-opts="{{[['tap',[['goToMovieCinema',['$0'],[[['movieList','',index,'id']]]]]]]}}" class="scroll-item-button data-v-57280228" bindtap="__e">购票</button>
+          </view>
+        </block>
+        <view class="more-movie-container data-v-57280228">
+          <image class="more-movie data-v-57280228" src="/static/更多.jpg"></image>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

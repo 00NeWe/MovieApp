@@ -1,0 +1,115 @@
+
+.page-detail.data-v-c10d0c50 {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.confirm-order.data-v-c10d0c50 {
+	margin-right: 200px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.container.data-v-c10d0c50 {
+	margin-top: 10px;
+	background-color: #95a295;
+	padding: 20px;
+}
+.movie-picture.data-v-c10d0c50 {
+	height: 300rpx;
+	width: 200rpx;
+	margin-top: 0rpx;
+	margin-left: 3rpx;
+	margin-right: 40rpx;
+}
+.back.data-v-c10d0c50 {
+	background-color: #15C5CE;
+	color: white;
+	margin-left: 3rpx;
+	height: 32px;
+	width: 32px;
+}
+.logo.data-v-c10d0c50 {
+	height: 16px;
+	width: 16px;
+}
+.movie-info.data-v-c10d0c50 {
+
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.movie-details.data-v-c10d0c50 {
+	margin-top: 8px;
+	display: flex;
+}
+.ticket-detail.data-v-c10d0c50 {
+	margin-top: 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.movie-title.data-v-c10d0c50 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.movie-description.data-v-c10d0c50 {
+	font-size: 14px;
+	color: #666;
+}
+.movie-time.data-v-c10d0c50,
+.movie-language.data-v-c10d0c50,
+.cinema.data-v-c10d0c50,
+.location.data-v-c10d0c50,
+.ticket-count.data-v-c10d0c50 {
+	font-size: 14px;
+	color: #333;
+	margin-top: 5px;
+}
+.policy.data-v-c10d0c50 {
+	margin-top: 10px;
+	font-size: 16px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.view-details.data-v-c10d0c50 {
+	margin-top: 20px;
+	background-color: #15C5CE;
+	color: white;
+}
+.purchase-notice.data-v-c10d0c50 {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+.notice-list.data-v-c10d0c50 {
+	font-size: 14px;
+	color: #333;
+	margin-top: 5px;
+	text-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.payment-details.data-v-c10d0c50 {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.agree-detail.data-v-c10d0c50 {
+	display: flex;
+	flex-direction: column;
+}
+.confirm-payment.data-v-c10d0c50 {
+
+	background-color: #15C5CE;
+	color: white;
+	border-radius: 5px;
+	margin-left: 200px;
+}
+

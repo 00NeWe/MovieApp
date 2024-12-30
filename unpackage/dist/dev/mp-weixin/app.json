@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/selectSeat/selectSeat",
+    "pages/selectTime/selectTime",
+    "pages/movieCinema/movieCinema",
+    "pages/order/order",
+    "pages/pay/pay"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "selectedColor": "#15C5CE",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/h.png",
+        "selectedIconPath": "static/sh.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/cinema.png",
+        "selectedIconPath": "static/selectedCinema.png",
+        "text": "订单"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

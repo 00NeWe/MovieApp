@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText":"首页",
+				"navigationBarTextStyle": "white",				
+				"navigationBarBackgroundColor": "#000000"				
+			}
+		},
+		{
+			"path" : "pages/selectSeat/selectSeat",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		
+		{
+			"path" : "pages/selectTime/selectTime",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/movieCinema/movieCinema",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+				
+			},
+			 "onPageScroll": "handleScroll"
+		},
+		{
+			"path" : "pages/order/order",
+			"style" : 
+			{
+				"navigationBarTitleText":"订单",
+				"navigationBarTextStyle": "white",				
+				"navigationBarBackgroundColor": "#000000"
+			}
+		},
+		{
+			"path" : "pages/pay/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+			
+			
+			
+		},
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor":"#15C5CE",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/h.png",
+				"selectedIconPath": "static/sh.png",
+				"text": "首页"
+				
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/cinema.png",
+				"selectedIconPath": "static/selectedCinema.png",
+				"text": "订单"
+			
+			}
+		]
+	}
+	
+}
